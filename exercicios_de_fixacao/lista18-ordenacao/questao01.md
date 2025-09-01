@@ -1,0 +1,4 @@
+(a) De forma objetiva temos que um algoritmo de ordenação é estável se, e somente se, para todo par de dados x e y, se antes da ordenação x aparece antes de y (índice menor) e a chave de x for igual à chave de y, então após a ordenação x continuará antes de y. Assim a ordenação por seleção é estável pois em seu algoritmo existirá uma condicional que define o índice para o menor elemento, assim quando forem encontrados vários menores elementos será selecionado o com menor indice, garantindo a condição de estabilidade.
+
+(b) Sim, é possível com uma função que ordena apenas o mês e o com uma função que ordena apenas o dia ordenar
+uma lista com datas tanto pelo aniversário, entretanto o contrario não é garantido se a ordenação por mês não for estável
